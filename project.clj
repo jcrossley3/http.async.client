@@ -1,4 +1,4 @@
-(defproject org.clojars.jcrossley3/http.async.client "0.5.2"
+(defproject org.clojars.jcrossley3/http.async.client "0.5.3-SNAPSHOT"
   :name             "http.async.client"
   :description      "Asynchronous HTTP Client for Clojure"
   :url              "http://github.com/jcrossley3/http.async.client/"
