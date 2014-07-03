@@ -1,7 +1,7 @@
-(defproject http.async.client "0.5.2"
+(defproject org.clojars.jcrossley3/http.async.client "0.5.2.0"
   :name             "http.async.client"
   :description      "Asynchronous HTTP Client for Clojure"
-  :url              "http://neotyk.github.com/http.async.client/"
+  :url              "http://github.com/jcrossley3/http.async.client/"
   :source-paths ["src/clj"]
   :java-source-paths ["src/jvm"]
   :dependencies     [[org.clojure/clojure "1.4.0"]
@@ -24,4 +24,8 @@
             :copyright "Copyright 2012 Hubert Iwaniuk"}
   :licence {:name "Apache License, Version 2.0"
             :url "http://www.apache.org/licenses/LICENSE-2.0"
-            :distribution :repo})
+            :distribution :repo}
+
+  :deploy-repositories [["releases" {:url "https://clojars.org/repo/" :creds :gpg}]]
+  :signing {:gpg-key "92439EF5"}
+)
